@@ -441,7 +441,6 @@ body {
 
 .contact {
   background-color: var(--oxford-blue-1);
-
 }
 
 .contact .section-title {
@@ -457,17 +456,20 @@ body {
 
 }
 
+
 .contact .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
+  background-color: cyan;
 
 }
 
-.contact .container .footer-list,
-.contact .container .footer-address {
-  padding: 30px;
-}
+/* .contact .container .footer-list,
+.contact .container .contact-map {
+  padding: 0px;
+} */
+
 
 /*-----------------------------------*\
   #SERVICE
@@ -889,6 +891,8 @@ body {
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
+
+
 
 /**
  * responsive for larger than 575px screen
