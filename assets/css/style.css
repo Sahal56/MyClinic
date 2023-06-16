@@ -461,13 +461,12 @@ body {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  background-color: cyan;
 
 }
 
 /* .contact .container .footer-list,
 .contact .container .contact-map {
-  padding: 0px;
+  padding: 10px;
 } */
 
 
